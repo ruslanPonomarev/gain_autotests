@@ -5,12 +5,12 @@ import static com.codeborne.selenide.Selectors.byName;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class GoogleTests {
+public class HomePageTests {
 
   @Test
   void selenideSearchTest() {
-    // Open google browser
-    open("https://google.com");
+    // Open home page in browser
+    open("https://brain.stg.thebrain4web.com");
 
     // Enter Selenide in search field
     $(byName("q")).setValue("Selenide").pressEnter();

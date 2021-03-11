@@ -1,2 +1,4 @@
-package io.github.rusponomar;public class DashboardPageTests {
+package io.github.rusponomar;
+
+public class DashboardPageTests {
 }

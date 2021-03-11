@@ -1,2 +1,9 @@
-package io.github.rusponomar;public class BrowserName {
-}
+//package io.github.rusponomar;
+//
+//public enum BrowserName {
+//
+//  FIREFOX,
+//
+//  CHROME
+//
+//}

@@ -8,9 +8,13 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static io.github.rusponomar.helpers.DriverHelper.getConsoleLogs;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 @Tag("web")
-public class MainPageTest extends TestBase {
+public class MainPageTests extends TestBase {
   @Test
   @DisplayName("Page should have title\"Latest Posts\"")
   void titlePageTests() {
@@ -32,5 +36,18 @@ public class MainPageTest extends TestBase {
   @DisplayName("Page should change language")
   void changeLanguageTest(){
     $("header .brand").click();
+  }
+
+  @Test
+  @DisplayName("The console log should not have any errors")
+  void consoleLogShouldNotHaveErrors(){
+    // Arrange
+    open("");
+
+    // Act
+    String consoleLogs = getConsoleLogs();
+
+    // Assert
+    assertThat(consoleLogs, not(containsString("SEVERE")));
   }
 }

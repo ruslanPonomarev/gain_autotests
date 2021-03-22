@@ -1,4 +1,4 @@
-package io.github.rusponomar.config;
+package config;
 
 import org.aeonbits.owner.Config;
 
@@ -9,7 +9,6 @@ import org.aeonbits.owner.Config;
 })
 
 public interface AuthorizationConfig extends Config {
-
   @Config.Key("editor.username")
   String editorUsername();
 

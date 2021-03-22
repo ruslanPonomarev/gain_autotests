@@ -3,6 +3,14 @@ package config;
 import org.aeonbits.owner.ConfigFactory;
 
 public class ConfigHelper {
+  public static String getSearchItem() {
+    return getWebConfig().searchItem();
+  }
+
+  public static String getSearchResult() {
+    return getWebConfig().searchResult();
+  }
+
   public static String getEditorUsername() {
     return getAuthorizationConfig().editorUsername();
   }

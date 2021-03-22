@@ -7,6 +7,7 @@ import org.aeonbits.owner.Config;
   "system:properties",
   "classpath:config/web.properties"
 })
+
 public interface WebConfig extends Config {
   @Key("web.url")
   String webUrl();
@@ -16,5 +17,11 @@ public interface WebConfig extends Config {
 
   @Key("web.remote.driver.password")
   String webRemoteDriverPassword();
+
+  @Key("web.search.item")
+  String searchItem();
+
+  @Key("web.search.result")
+  String searchResult();
 
 }

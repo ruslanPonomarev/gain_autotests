@@ -9,10 +9,10 @@ import org.aeonbits.owner.Config;
 })
 
 public interface AuthorizationConfig extends Config {
-  @Config.Key("editor.username")
+  @Config.Key("username")
   String editorUsername();
 
-  @Config.Key("editor.password")
+  @Config.Key("password")
   String editorPassword();
 
 }

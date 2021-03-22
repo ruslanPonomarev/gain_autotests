@@ -6,18 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5125c7a1-bb97-42fc-99c6-efbf337b1c72" name="Default Changelist" comment="addHomePageTest">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rusponomar/BrowserName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rusponomar/ServiceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rusponomar/WebDriverConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rusponomar/WebDriverProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/default.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/AuthorizationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/ConfigHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/authorization.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/config/authorization.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/web.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/config/web.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/authorization.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/authorization.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/authorization_example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/authorization_example.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/web.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/web.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/web_example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/web_example.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +101,8 @@
       <recent name="$PROJECT_DIR$/src/test/java/resources/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -110,13 +110,13 @@
       <recent name="io.github.rusponomar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTests.selenideSearchItem">
-    <configuration name="LoginTests.selenideSearchItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTests.loginAsEditor">
+    <configuration name="LoginTests.loginAsEditor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.LoginTests.selenideSearchItem&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.LoginTests.loginAsEditor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -132,12 +132,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests.baseBlocksLoadedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests.baseBlocksLoadedTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -164,7 +164,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":web" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests.selenideSearchItem" />
-        <item itemvalue="Gradle.MainPageTests.consoleLogShouldNotHaveErrors" />
-        <item itemvalue="Gradle.MainPageTests.baseBlocksLoadedTest" />
-        <item itemvalue="Gradle.MainPageTests.titlePageTests" />
+        <item itemvalue="Gradle.LoginTests.loginAsEditor" />
+        <item itemvalue="Gradle.MainPageTests" />
         <item itemvalue="Gradle.MainPageTests.changeLanguageTest" />
+        <item itemvalue="Gradle.MainPageTests.consoleLogShouldNotHaveErrors" />
+        <item itemvalue="Gradle.MainPageTests.titlePageTests" />
       </list>
     </recent_temporary>
   </component>

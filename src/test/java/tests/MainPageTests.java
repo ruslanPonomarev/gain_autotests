@@ -32,11 +32,11 @@ public class MainPageTests extends TestBase {
 
   }
 
-  @Test
-  @DisplayName("Page should change language")
-  void changeLanguageTest(){
-    $("header .brand").click();
-  }
+//  @Test
+//  @DisplayName("Page should change language")
+//  void changeLanguageTest(){
+//    $(".header-brand.header-brand__link").click();
+//  }
 
   @Test
   @DisplayName("The console log should not have any errors")

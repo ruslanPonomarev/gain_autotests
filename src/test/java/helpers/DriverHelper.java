@@ -21,7 +21,8 @@ public class DriverHelper {
     Configuration.baseUrl = "https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com";//ConfigHelper.getWebUrl();
     Configuration.startMaximized = true;
     Configuration.timeout = 10000;
-
+    System.out.println("123");
+    System.out.println(ConfigHelper.isRemoteWebDriver());
     if (ConfigHelper.isRemoteWebDriver()) {
       addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
       // config for Java + Selenide
@@ -29,6 +30,7 @@ public class DriverHelper {
       capabilities.setCapability("enableVNC", true);
       capabilities.setCapability("enableVideo", true);
       Configuration.browserCapabilities = capabilities;
+      System.out.println(ConfigHelper.getWebRemoteDriver());
       Configuration.remote = ConfigHelper.getWebRemoteDriver();
     }
   }

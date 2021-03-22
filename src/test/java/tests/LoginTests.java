@@ -17,14 +17,14 @@ import static io.qameta.allure.Allure.step;
 @Feature("Login tests")
 public class LoginTests extends TestBase {
 
-  @Test
-  void selenideSearchItem() {
-    String searchItem = ConfigHelper.getSearchItem();
-    String searchResult = ConfigHelper.getSearchResult();
-    open("https://google.com");
-    $(byName("q")).setValue(searchItem).pressEnter();
-    $("html").shouldHave(Condition.text(searchResult));
-  }
+//  @Test
+//  void selenideSearchItem() {
+//    String searchItem = ConfigHelper.getSearchItem();
+//    String searchResult = ConfigHelper.getSearchResult();
+//    open("https://google.com");
+//    $(byName("q")).setValue(searchItem).pressEnter();
+//    $("html").shouldHave(Condition.text(searchResult));
+//  }
 
   @Test
   @DisplayName("Successful login in CMS as an Editor")
@@ -34,8 +34,8 @@ public class LoginTests extends TestBase {
     //    open("https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com/wp/wp-login.php");
     // Act
     step("Fill auth form", () -> {
-        $("#user_login").sendKeys(ConfigHelper.getEditorUsername());//.val("Editor");
-        $("#user_pass").sendKeys(ConfigHelper.getEditorUsername());//("DxsUdG*ml91o4g7aVq");
+        $("#user_login").sendKeys(ConfigHelper.getEditorUsername());
+        $("#user_pass").sendKeys(ConfigHelper.getEditorPassword());
         $("#wp-submit").click();
       });
 

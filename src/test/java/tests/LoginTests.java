@@ -17,7 +17,7 @@ public class LoginTests extends TestBase {
   @DisplayName("Successful login in CMS as an Editor")
   void loginAsEditor() {
     // Arrange
-    step("Open main page", () -> open("https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com/wp/wp-login.php"));
+    step("Open main page", () -> open("/wp/wp-login.php"));
     //    open("https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com/wp/wp-login.php");
     // Act
     step("Fill auth form", () -> {

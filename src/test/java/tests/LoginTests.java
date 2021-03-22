@@ -1,6 +1,7 @@
 package tests;
 
 import com.codeborne.selenide.Condition;
+import config.ConfigHelper;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -21,8 +22,8 @@ public class LoginTests extends TestBase {
     //    open("https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com/wp/wp-login.php");
     // Act
     step("Fill auth form", () -> {
-        $("#user_login").val("Editor");//ConfigHelper.getEditorUsername()
-        $("#user_pass").val("DxsUdG*ml91o4g7aVq");
+        $("#user_login").sendKeys(ConfigHelper.getEditorUsername());//.val("Editor");
+        $("#user_pass").sendKeys(ConfigHelper.getEditorUsername());//("DxsUdG*ml91o4g7aVq");
         $("#wp-submit").click();
       });
 

@@ -17,6 +17,7 @@ public class DriverHelper {
     addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
 //    Configuration.browser = System.getProperty("browser", "chrome");
 
+
     Configuration.baseUrl = "https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com";//ConfigHelper.getWebUrl();
     Configuration.startMaximized = true;
     Configuration.timeout = 10000;

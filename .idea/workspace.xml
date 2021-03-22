@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5125c7a1-bb97-42fc-99c6-efbf337b1c72" name="Default Changelist" comment="addHomePageTest">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +101,7 @@
       <recent name="io.github.rusponomar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTests.loginAsEditor">
+  <component name="RunManager" selected="Gradle.MainPageTests.titlePageTests">
     <configuration name="LoginTests.loginAsEditor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,8 +209,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests.loginAsEditor" />
         <item itemvalue="Gradle.MainPageTests.titlePageTests" />
+        <item itemvalue="Gradle.LoginTests.loginAsEditor" />
         <item itemvalue="Gradle.MainPageTests.changeLanguageTest" />
         <item itemvalue="Gradle.MainPageTests.consoleLogShouldNotHaveErrors" />
         <item itemvalue="Gradle.gain [allureServe]" />

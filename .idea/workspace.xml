@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5125c7a1-bb97-42fc-99c6-efbf337b1c72" name="Default Changelist" comment="addHomePageTest">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DriverHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/authorization.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/authorization.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/authorization_example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/authorization_example.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/web.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/web.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/config/web_example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/web_example.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/authorization.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/authorization.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

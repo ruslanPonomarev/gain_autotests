@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 @Tag("web")
 public class MainPageTests extends TestBase {
   @Test
-  @DisplayName("Page should have title\"Latest Posts\"")
+  @DisplayName("Page should have title \"Latest Posts\"")
   void titlePageTests() {
     open("");
 

@@ -18,7 +18,7 @@ public class InitiativeBlockTests extends TestBase{
   @DisplayName("Check initiatives block visible and display logo images")
   void initiativesBlockTest(){
     // Arrange
-    step("Open main page", () -> open(" "));
+    step("Open main page", () -> open(""));
 
     // Assert
     step("Title is correct", () -> {
@@ -28,8 +28,7 @@ public class InitiativeBlockTests extends TestBase{
       $$(".initiatives__row div").shouldHave(size(3));
     });
     step("Check logos are displayed", () -> {
-      $(".initiatives__image").isDisplayed();
-
+      $(".initiatives__image").shouldBe(visible);
     });
   }
 }

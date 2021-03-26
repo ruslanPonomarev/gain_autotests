@@ -18,7 +18,7 @@ public class DriverHelper {
 //    Configuration.browser = System.getProperty("browser", "chrome");
 
 
-    Configuration.baseUrl = "https://wearebrain:9UT38CeKTYiYggG7@gain.stg.thebrain4web.com";//ConfigHelper.getWebUrl();
+    Configuration.baseUrl = ConfigHelper.getWebUrl();
     Configuration.startMaximized = true;
     Configuration.timeout = 10000;
     System.out.println("123");

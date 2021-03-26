@@ -13,13 +13,13 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Tag("web")
-@Feature("Footer tests")
+@Feature("Footer menu tests")
 public class FooterMenuTests extends TestBase {
   @Test
   @DisplayName("Footer has clickable and visible menu links and logo image")
   void footerNavMenuTest() {
     // Arrange
-    step("Open main page", () -> open(" "));
+    step("Open main page", () -> open(""));
     step("Check that all Links are display", () -> {
       $$("#menu-footer-menu").shouldHave(texts("Sitemap Terms and Conditions Privacy Accessibility Contact"));
     });

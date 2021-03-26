@@ -41,7 +41,7 @@ public class LoginTests extends TestBase {
 
     // Assert
     step("Verify successfully authorization an Editor", () -> {
-      $("#wpbody-content .wrap>h1").shouldHave(Condition.text("Dashboard"));
+      $("#wpbody-content h1").shouldHave(Condition.text("Dashboard"));
     });
   }
 }

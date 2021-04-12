@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5125c7a1-bb97-42fc-99c6-efbf337b1c72" name="Default Changelist" comment="addHomePageTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ShortCaseStudyTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HeaderMenuTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HeaderMenuTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InitiativeBlockTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InitiativeBlockTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +92,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/resources/config" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.6193029" />
+    <property name="settings.editor.selected.configurable" value="android.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,13 +114,24 @@
       <recent name="io.github.rusponomar" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTests.loginAsEditor">
-    <configuration name="LoginTests.loginAsEditor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShortCaseStudyTests">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortCaseStudyTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.LoginTests.loginAsEditor&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.ShortCaseStudyTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,12 +147,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShortCaseStudyTests.checkFeaturedImageIsDisplay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.ShortCaseStudyTests.checkFeaturedImageIsDisplay&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -144,12 +168,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests.changeLanguageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShortCaseStudyTests.checkH2AnchorsAreDisplay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests.changeLanguageTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.ShortCaseStudyTests.checkH2AnchorsAreDisplay&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +189,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests.consoleLogShouldNotHaveErrors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShortCaseStudyTests.checkTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests.consoleLogShouldNotHaveErrors&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.ShortCaseStudyTests.checkTags&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,12 +210,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests.titlePageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShortCaseStudyTests.openCaseStudyPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tests.MainPageTests.titlePageTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tests.ShortCaseStudyTests.openCaseStudyPage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -209,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests.loginAsEditor" />
-        <item itemvalue="Gradle.MainPageTests" />
-        <item itemvalue="Gradle.MainPageTests.changeLanguageTest" />
-        <item itemvalue="Gradle.MainPageTests.consoleLogShouldNotHaveErrors" />
-        <item itemvalue="Gradle.MainPageTests.titlePageTests" />
+        <item itemvalue="Gradle.ShortCaseStudyTests" />
+        <item itemvalue="Gradle.ShortCaseStudyTests.checkH2AnchorsAreDisplay" />
+        <item itemvalue="Gradle.ShortCaseStudyTests.checkFeaturedImageIsDisplay" />
+        <item itemvalue="Gradle.ShortCaseStudyTests.checkTags" />
+        <item itemvalue="Gradle.ShortCaseStudyTests.openCaseStudyPage" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +263,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610548796342</updated>
+      <workItem from="1618214016728" duration="8909000" />
     </task>
     <task id="LOCAL-00003" summary="Added owner support">
       <created>1615487138516</created>
@@ -254,8 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615487232906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Search tests">
+      <created>1616757661986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616757661987</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -273,7 +308,8 @@
     <MESSAGE value="updateGitIgnore" />
     <MESSAGE value="addHomePageTest" />
     <MESSAGE value="Added owner support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added owner support" />
+    <MESSAGE value="Search tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

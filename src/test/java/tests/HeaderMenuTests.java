@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
 @Tag("web")
-@Feature("Header menu tests")
+@Feature("Header menu")
 public class HeaderMenuTests extends TestBase{
 
   @Test

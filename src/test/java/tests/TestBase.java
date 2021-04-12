@@ -3,6 +3,7 @@ package tests;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 
+import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
 import static config.ConfigHelper.isVideoOn;
 import static helpers.AttachmentsHelper.*;
@@ -13,6 +14,7 @@ public class TestBase {
   @BeforeAll
   public static void beforeAll() {
     configureDriver();
+    open("");
   }
 
   @AfterEach

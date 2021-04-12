@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Tag("web")
-@Feature("InitiativeBlockTests tests")
+@Feature("Initiative Block")
 public class InitiativeBlockTests extends TestBase{
   @Test
   @DisplayName("Check initiatives block visible and display logo images")

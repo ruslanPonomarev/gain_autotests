@@ -21,7 +21,7 @@ public class FooterMenuTests extends TestBase {
     // Arrange
     step("Open main page", () -> open(""));
     step("Check that all Links are display", () -> {
-      $$("#menu-footer-menu").shouldHave(texts("Sitemap Terms and Conditions Privacy Accessibility Contact"));
+      $$("#menu-footer-menu").shouldHave(texts("Sitemap Privacy Terms and Conditions Accessibility Contact"));
     });
 
     // Assert
